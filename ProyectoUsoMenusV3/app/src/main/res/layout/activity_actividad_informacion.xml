@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividad_informacion">
+
+    <TextView
+        android:id="@+id/h2"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/h7"
+        android:layout_below="@+id/h7"
+        android:text="Carrera:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <TextView
+        android:id="@+id/h7"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/h6"
+        android:layout_below="@+id/h6"
+        android:text="Seccion:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <TextView
+        android:id="@+id/h6"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_alignStart="@+id/h5"
+        android:layout_below="@+id/h5"
+        android:text="Semestre:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <TextView
+        android:id="@+id/h5"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/h4"
+        android:layout_marginTop="163dp"
+        android:text="Apellidos:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/h"
+        android:layout_marginTop="126dp"
+        android:text="Nombres:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/h4"
+        android:layout_marginTop="87dp"
+        android:text="Ingrese aqui sus Datos:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="46dp" />
+
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="215dp"
+        android:layout_height="26dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="49dp"
+        android:text="Creacion de menus:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tod"
+        android:layout_width="400dp"
+        android:layout_height="217dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/background_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Tecsup Pasion por la Tecnologia"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+
+</RelativeLayout>

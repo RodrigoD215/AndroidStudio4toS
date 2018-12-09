@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="157dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Enviar Mensaje:"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/txtEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@android:color/background_light"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="196dp"
+            android:layout_height="match_parent"
+            android:text="Enviar" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Cancelar" />
+
+    </LinearLayout>
+</LinearLayout>

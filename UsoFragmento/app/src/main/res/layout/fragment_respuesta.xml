@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.juancarlos.usofragmento.Fragmento1"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Estas en el contenido de respuesta"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/lblRecibido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Recibido" />
+</LinearLayout>

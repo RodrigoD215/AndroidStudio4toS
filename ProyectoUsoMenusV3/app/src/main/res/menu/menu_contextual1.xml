@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".actividad01">
+
+    <item android:id="@+id/vnombres"
+        android:title="Ver Nombres"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/vcarrera"
+        android:title="Ver Carrrera"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/vsemestres"
+        android:title="Ver Semestre"
+        android:icon="@android:drawable/ic_menu_day"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/vemail"
+        android:title="Ver Email"
+        android:icon="@android:drawable/ic_menu_day"
+        app:showAsAction="always"
+        />
+
+</menu>

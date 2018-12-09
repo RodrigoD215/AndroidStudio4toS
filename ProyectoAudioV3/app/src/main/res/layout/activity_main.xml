@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblNombre"
+        android:layout_width="389dp"
+        android:layout_height="28dp"
+        android:layout_x="1dp"
+        android:layout_y="407dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Nombre de la Cancion"
+        android:textColor="@android:color/background_light"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="44dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Play Music"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imgMusica"
+        android:layout_width="313dp"
+        android:layout_height="294dp"
+        android:layout_x="37dp"
+        android:layout_y="81dp"
+        android:onClick="verLista"
+        app:srcCompat="@drawable/musica"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <ImageView
+        android:id="@+id/btnReset"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_x="301dp"
+        android:layout_y="471dp"
+        android:onClick="doClic"
+        app:srcCompat="@drawable/replay"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <ImageView
+        android:id="@+id/btnStop"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_x="210dp"
+        android:layout_y="468dp"
+        android:onClick="doClic"
+        app:srcCompat="@drawable/stop"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <ImageView
+        android:id="@+id/btnPause"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_x="115dp"
+        android:layout_y="471dp"
+        android:onClick="doClic"
+        app:srcCompat="@drawable/ic_pause_black_24dp"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <ImageView
+        android:id="@+id/btnPlay"
+        android:layout_width="61dp"
+        android:layout_height="57dp"
+        android:layout_x="16dp"
+        android:layout_y="469dp"
+        android:onClick="doClic"
+        app:srcCompat="@drawable/play"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <TextView
+        android:id="@+id/lblDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="318dp"
+        android:layout_y="542dp"
+        android:text="00:00:00"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <TextView
+        android:id="@+id/lblPosicionActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="10dp"
+        android:layout_y="540dp"
+        android:text="00:00:00"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="539dp" />
+
+    <SeekBar
+        android:id="@+id/volumen"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="444dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <SeekBar
+        android:id="@+id/progresoMusica"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_x="75dp"
+        android:layout_y="544dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="38dp"
+        android:layout_height="29dp"
+        android:layout_x="8dp"
+        android:layout_y="438dp"
+        app:srcCompat="@drawable/ic_volume_up_black_24dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+</AbsoluteLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tecsup.whatsapp.MainActivity">
+    <item
+        android:id="@+id/ajustes"
+        android:orderInCategory="100"
+        android:title="Ajustes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/AcercaDe"
+        android:orderInCategory="100"
+        android:title="Acerca de..."
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/mensaje"
+        android:title="mensajes"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/lupa"
+        android:title="lupa"
+        android:icon="@drawable/ic_insert_comment_black_24dp"
+        app:showAsAction="always" />
+
+
+</menu>

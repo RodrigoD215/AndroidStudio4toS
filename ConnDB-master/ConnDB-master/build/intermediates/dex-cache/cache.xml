@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/ravi/AndroidStudioProjects/ConnDB/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/ravi/AndroidStudioProjects/ConnDB/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7a79ad133a612af07c6b5946e635e8ccbc027d57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/AndroidStudioProjects/ConnDB/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/ravi/AndroidStudioProjects/ConnDB/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_e44bedb43f4b87e1ca56b7c3329e3c200ffb7e9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/ravi/AndroidStudioProjects/ConnDB/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5f19a2bc1476ccedf94ad59ea11ebdbf1c996f8">
+        <dex dex="/home/ravi/AndroidStudioProjects/ConnDB/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8395c7831a8b282d72ed8f8d4670024b91b5bea9/classes.dex" />
+    </item>
+
+</items>

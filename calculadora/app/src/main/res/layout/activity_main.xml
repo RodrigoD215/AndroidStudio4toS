@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/mas"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/txtResultado"
+        android:layout_below="@+id/uno"
+        android:layout_marginTop="-86dp"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/cinco"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/BT"
+        android:layout_alignTop="@+id/cuatro"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/punto"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/BT"
+        android:layout_below="@+id/uno"
+        android:layout_marginTop="-86dp"
+        android:text="." />
+
+    <Button
+        android:id="@+id/seis"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/B1"
+        android:layout_alignTop="@+id/cuatro"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/dos"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/BT"
+        android:layout_alignTop="@+id/uno"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/background_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Calculadora"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtResultado"
+        android:layout_width="350dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="62dp"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="162dp"
+        android:layout_height="77dp"
+        android:layout_alignEnd="@+id/txtResultado"
+        android:layout_alignTop="@+id/BT"
+        android:text="CE" />
+
+    <Button
+        android:id="@+id/BT"
+        android:layout_width="167dp"
+        android:layout_height="77dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txtResultado"
+        android:layout_marginTop="149dp"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/ocho"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/BT"
+        android:layout_centerVertical="true"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/nueve"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/B1"
+        android:layout_centerVertical="true"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/division"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/txtResultado"
+        android:layout_centerVertical="true"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/cuatro"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtResultado"
+        android:layout_marginBottom="167dp"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/uno"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/txtResultado"
+        android:layout_marginBottom="86dp"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/cero"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/txtResultado"
+        android:layout_below="@+id/uno"
+        android:layout_marginTop="-81dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/por"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/txtResultado"
+        android:layout_alignTop="@+id/cuatro"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/tres"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/B1"
+        android:layout_alignTop="@+id/uno"
+        android:text="3" />
+
+    <Button
+        android:id="@+id/igual"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/B1"
+        android:layout_below="@+id/uno"
+        android:layout_marginTop="-86dp"
+        android:text="=" />
+
+    <Button
+        android:id="@+id/menos"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignEnd="@+id/txtResultado"
+        android:layout_alignTop="@+id/uno"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/siete"
+        android:layout_width="76dp"
+        android:layout_height="72dp"
+        android:layout_alignStart="@+id/txtResultado"
+        android:layout_centerVertical="true"
+        android:text="7" />
+
+</RelativeLayout>

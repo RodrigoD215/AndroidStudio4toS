@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context=".Contactos">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="286dp"
+        android:text="Celular:"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="175dp"
+        android:text="Apellido:"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="79dp"
+        android:text="Nombre:"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="0dp"
+        android:text="Datos"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="123dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/txtDireccion"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="228dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <EditText
+        android:id="@+id/txtCelular"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="337dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="120dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_x="204dp"
+        android:layout_y="442dp"
+        android:onClick="regresar_onclick"
+        android:text="Cancelar"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <Button
+        android:id="@+id/btnGrabar"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_x="24dp"
+        android:layout_y="444dp"
+        android:onClick="grabar_onclick"
+        android:text="Grabar"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="415dp" />
+</AbsoluteLayout>

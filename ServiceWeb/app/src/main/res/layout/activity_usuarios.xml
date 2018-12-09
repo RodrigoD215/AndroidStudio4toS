@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".usuarios">
+
+    <TextView
+        android:id="@+id/lblLista"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="98dp"
+        android:layout_y="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Lista de Usuarios"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="13dp"
+        android:layout_y="66dp"
+        android:text="Buscar Nombre:" />
+
+    <EditText
+        android:id="@+id/txtBuscar"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="123dp"
+        android:layout_y="51dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="318dp"
+        android:layout_y="48dp"
+        android:onClick="addUsuario"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btnSalir"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:layout_x="4dp"
+        android:layout_y="2dp"
+        android:onClick="Salir"
+        android:text="salir" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="0dp"
+        android:layout_y="99dp"
+        android:onClick="buscarUsuario"
+        android:text="Buscar" />
+
+    <Button
+        android:id="@+id/btnCargar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="0dp"
+        android:layout_y="150dp"
+        android:onClick="cargarLista"
+        android:text="Cargar Lista" />
+
+    <ListView
+        android:id="@+id/lstLista"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:layout_weight="1"
+        android:layout_x="0dp"
+        android:layout_y="201dp" />
+
+</AbsoluteLayout>

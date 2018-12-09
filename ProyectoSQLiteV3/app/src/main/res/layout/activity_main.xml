@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCompromisos2"
+        android:layout_width="260dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:onClick="compromisos_onclick"
+        android:text="Compromisos"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/ListarCompromisos"
+        android:layout_width="260dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:onClick="LISTARCompromisos_onclick"
+        android:text="Listar Compromisos"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/listarContactos"
+        android:layout_width="260dp"
+        android:layout_height="73dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="199dp"
+        android:onClick="LISTAR_onclick"
+        android:text="Listar Contactos"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/btnContactos2"
+        android:layout_width="260dp"
+        android:layout_height="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="209dp"
+        android:onClick="contactos_onclick"
+        android:text="Contactos"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Usando SQLite"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+</RelativeLayout>

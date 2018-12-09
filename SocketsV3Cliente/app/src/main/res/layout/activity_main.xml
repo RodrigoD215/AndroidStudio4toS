@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="395dp"
+        android:layout_height="39dp"
+        android:layout_weight="1"
+        android:layout_x="0dp"
+        android:layout_y="7dp"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Cliente"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnConectarServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="52dp"
+        android:text="Conectar a servidor"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/txtMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="102dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/btnEnviarData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="157dp"
+        android:text="Enviar mensaje al Servidor"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="212dp"
+        android:text="volver"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="165dp" />
+
+    <ScrollView
+        android:layout_width="384dp"
+        android:layout_height="219dp"
+        android:layout_x="0dp"
+        android:layout_y="271dp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="239dp">
+
+        <TextView
+            android:id="@+id/lblMensajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="218dp"
+            android:text="No message"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="247dp" />
+    </ScrollView>
+
+</AbsoluteLayout>
